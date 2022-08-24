@@ -2,7 +2,7 @@ name: run twitter.py
 
 on:
   schedule:
-    - cron: '53 15 * * *' # At 00:00 on Monday
+    - cron: '57 15 * * *' # At 00:00 on Monday
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
           
       - name: execute py script # run main.py
         
-        run: python main.py
+        run: python twitter.py
           
       - name: commit files
         run: |
