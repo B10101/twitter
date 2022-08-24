@@ -21,6 +21,5 @@ def get_tweets(username):
    
 
 
-if __name__ =="__main__":
-    for i in usernames:
-        get_tweets(i)
+for i in usernames:
+    get_tweets(i)
